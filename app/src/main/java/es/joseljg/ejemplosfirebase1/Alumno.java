@@ -12,6 +12,11 @@ public class Alumno implements Serializable {
         this.nombre = nombre;
         this.apellidos = apellidos;
     }
+
+    public Alumno() {
+        this.nombre = "se";
+        this.apellidos = "se";
+    }
     //------------------------------
 
     public String getNombre() {
