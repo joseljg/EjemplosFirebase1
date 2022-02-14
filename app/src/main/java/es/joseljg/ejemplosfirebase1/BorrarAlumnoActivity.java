@@ -106,7 +106,7 @@ public class BorrarAlumnoActivity extends AppCompatActivity {
     }
 
     //--------------------------------------------------------------------------------------
-    public interface MyAlumnos{
+   public interface MyAlumnos{
         void leeralumnos(List<String> keys, List<Alumno> alumnos);
     }
 
@@ -140,5 +140,8 @@ public class BorrarAlumnoActivity extends AppCompatActivity {
 
             }
         });
+
+
     }
+
 }
